@@ -1,0 +1,60 @@
+/*全局样式表*/
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+
+.el-breadcrumb{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.el-card{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+}
+.el-table{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.el-pagination{
+    margin-top: 15px;
+}
+.el-steps{
+    margin:15px 0;
+}
+.el-step_title{
+    font-size: 13px;
+}
+.ql-editor{
+    min-height: 300px;
+}
+
+/*修改表格自定义样式*/
+.el-table__header tr,
+.el-table__header th{
+    padding: 0;
+    height: 40px;
+    background-color: rgba(0,0,0,.01);
+    font-size: 14px;
+    color: #0086b3;
+}
+.el-table__body tr,
+.el-table__body td{
+    padding: 0;
+    height: 40px;
+}
+
+/*修改操作icon图片自定义样式*/
+.icons{
+    font-size: 20px;
+    color: #0086b3;
+}
+.icons:not(:last-child)::after{
+     content: '|';
+     display: inline-block;
+     color: #cccccc;
+     height: 1px;
+     padding-left: 10px;
+     padding-right: 10px;
+}
